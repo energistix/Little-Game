@@ -5,7 +5,8 @@ async function setup() {
   await new Promise((resolve) => {
     PIXI.Loader.shared
       // .add("assets/sprites/animation.json")
-      .add("assets/sprites/hello.png")
+      .add("assets/sprites/rock.png")
+      .add("assets/sprites/void.png")
       .load(resolve)
   })
 
